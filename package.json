@@ -1,0 +1,42 @@
+{
+  "name": "entropicinertia-portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Justin Groseclose's experienced Data Scientist portfolio. Featuring work in Python, Machine Learning, and AI.",
+  "author": "Justin Groseclose",
+  "license": "MIT",
+  "homepage": "https://EntropicInertia.github.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EntropicInertia/EntropicInertia.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EntropicInertia/EntropicInertia.github.io/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "echarts": "^6.0.0",
+    "echarts-for-react": "^3.0.6",
+    "framer-motion": "^12.35.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-icons": "^5.6.0",
+    "react-router-dom": "^7.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "autoprefixer": "^10.4.27",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}
